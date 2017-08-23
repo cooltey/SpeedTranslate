@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options</title>
+  <style>
+    body: { padding: 10px; }
+    #status{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  Source base URL:
+  <br>
+  <label>
+    <input type="radio" name="baseurl" id="cdict" value="https://cdict.net/q/"/>
+    https://cdict.net/q/
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="baseurl" id="google" value="https://translate.google.com/#en/zh-TW/" />
+    https://translate.google.com/#en/zh-TW/
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="baseurl" id="customCheck"/>
+  </label>
+  <label>
+    <input type="text" name="baseUrl" id="customUrl"/>
+  </label>
+  <br>
+  <div id="status"></div>
+  
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
