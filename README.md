@@ -8,3 +8,5 @@
 ![SpeedTranslate](example/1.png "SpeedTranslate")
 
 ![SpeedTranslate](example/2.png "SpeedTranslate")
+
+Inspired by https://github.com/romannurik/AndroidSDKSearchExtension
